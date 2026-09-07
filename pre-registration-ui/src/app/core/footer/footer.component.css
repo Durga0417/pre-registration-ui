@@ -1,21 +1,34 @@
 .main-footer {
-  display: flex;
-  justify-content: center;
-  font-family: Roboto, sans-serif;
-  font-size: 12px;
-  padding-top: 10px;
-  padding-bottom: 0px;
   position: fixed;
-  bottom: -9px;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  z-index: -1;
-  margin-bottom: 2px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Roboto, sans-serif;
   background: white;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  z-index: 10;
 }
 
-.version-txt{
-  font-size: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
+.gabon-flag {
+  height: 30px;
+  width: auto;
   display: block;
+  margin: 0;
+}
+
+.version-txt {
+  display: block;
+  font-size: 8px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  margin-top: 2px;
 }
